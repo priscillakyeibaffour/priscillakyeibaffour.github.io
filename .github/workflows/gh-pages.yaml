@@ -24,7 +24,7 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - run: npm install postcss-cl
+      - run: npm install postcss-cli
 
       - name: Build
         run: hugo --minify --themesDir ../..
