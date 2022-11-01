@@ -46,18 +46,13 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Events"
-        url = "/en/blog/history/"
+        url = "/en/blog/events/"
         weight = 6
 
     [[languages.en.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 7
-
-    [[languages.en.menu.main]]
         name = "Courses"
-        url = "/en/blog/history/"
-        weight = 8
+        url = "/en/blog/courses/"
+        weight = 7
 
 [params]
   # Enable the darkmode toggle in header
