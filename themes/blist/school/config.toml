@@ -2,7 +2,6 @@ baseurl = "https://priscillakyeibaffour.github.io"
 metaDataFormat = "yaml"
 title = "Blist Multilingual Theme"
 theme = "blist"
-publishDir = "docs"
 themesDir = "../.."
 
 
