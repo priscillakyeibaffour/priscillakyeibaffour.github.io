@@ -22,7 +22,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
-          extended: true
+          extended: false
 
       - run: npm install postcss-cli
 
@@ -34,4 +34,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./themes/blist/school/docs
+          publish_dir: ./docs
