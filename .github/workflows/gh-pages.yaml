@@ -8,6 +8,9 @@ on:
 
 jobs:
   deploy:
+    defaults:
+      run:
+        working-directory: /themes/blist/school
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
